@@ -1,0 +1,98 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+.env.*
+
+# Logs
+logs
+*.log
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build output
+build/
+dist/
+
+# Vite/React
+.vite/
+*.local
+
+# Coverage
+coverage/
+
+# Editor
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Misc
+*.tgz
+*.gz
+*.zip
+
+# Frontend static
+frontend/public/static/
+
+# Backend
+backend/.env
+backend/node_modules/
+backend/logs/
+backend/coverage/
+
+# Frontend
+frontend/.env
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/coverage/
+
+# Express
+express/backend/node_modules/
+express/backend/.env
+express/backend/logs/
+express/backend/coverage/
+express/frontend/node_modules/
+express/frontend/.env
+express/frontend/build/
+express/frontend/dist/
+express/frontend/coverage/
+
+# Tinkergram
+/tinkergram-app/backend/node_modules/
+/tinkergram-app/backend/.env
+/tinkergram-app/backend/logs/
+/tinkergram-app/backend/coverage/
+/tinkergram-app/frontend/node_modules/
+/tinkergram-app/frontend/.env
+/tinkergram-app/frontend/build/
+/tinkergram-app/frontend/dist/
+/tinkergram-app/frontend/coverage/
+
+# Local env
+*.local.env
+
+# npm package lock
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Others
+*.swp
+*.bak
+*.tmp
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VSCode settings
+.history/
